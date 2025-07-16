@@ -1,0 +1,13 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin page_layout {
+  @include flex-center;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  padding: 22px;
+}

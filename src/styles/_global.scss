@@ -1,0 +1,40 @@
+@use "normalize.css" as *;
+@use "./colors.scss" as *;
+@use "./typography.scss" as *;
+
+@include export-colors-to-css-vars();
+
+html,
+body,
+#root {
+  height: 100vh;
+  font-family: "Quicksand", "Assistant", Arial, sans-serif;
+  background-color: var(--panel50);
+  color: var(--neutral950);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neutral300);
+  background-clip: content-box;
+  border: solid transparent;
+  border-width: 3px;
+  border-radius: 8px;
+}

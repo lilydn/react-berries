@@ -1,0 +1,45 @@
+.pokedexCard {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 8px;
+  height: 100%;
+  background: var(--neutral0);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+
+  max-height: max(450px, 50dvh);
+  min-width: max(790px, 35dvw);
+  overflow: hidden;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 16px;
+  padding: 16px 24px;
+  overflow: hidden;
+}
+
+.firmnessSlider {
+  width: 165px;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 12px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.searchWrapper {
+  align-self: start;
+  height: 50px;
+}
+
+.berriesCollection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+
+  &::placeholder {
+    color: #aaa;
+  }
+  &:focus {
+    border-color: #bbb;
+  }
+}
+
+.prefix,
+.suffix {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.prefix {
+  left: 12px;
+}
+
+.suffix {
+  right: 12px;
+}

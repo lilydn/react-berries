@@ -1,0 +1,6 @@
+@use "@/styles/_mixins" as *;
+@use "@/styles/_typography" as *;
+
+.layout {
+  @include page_layout;
+}

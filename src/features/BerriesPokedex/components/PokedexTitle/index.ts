@@ -1,0 +1,1 @@
+export { PokedexTitle } from './PokedexTitle';

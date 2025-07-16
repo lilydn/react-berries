@@ -1,0 +1,1 @@
+export { BerriesCollection } from './BerriesCollection';

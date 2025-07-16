@@ -1,0 +1,13 @@
+.chip {
+  display: inline-block;
+  padding: 4px 8px;
+  background: var(--neutral200);
+  border-radius: 16px;
+  font-size: 12px;
+  color: var(--neutral700);
+  white-space: nowrap;
+}
+
+.clickable {
+  cursor: pointer;
+}

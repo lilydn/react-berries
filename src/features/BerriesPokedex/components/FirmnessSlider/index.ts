@@ -1,0 +1,1 @@
+export { FirmnessSlider } from './FirmnessSlider';

@@ -1,0 +1,33 @@
+@use "@/styles/typography" as *;
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  color: var(--panel800);
+  margin-bottom: 12px;
+  @include heading-2;
+}
+
+.message {
+  color: var(--panel500);
+  margin-bottom: 12px;
+  @include subtitle;
+}
+
+.link {
+  color: var(--blue500);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--blue600);
+  }
+}
