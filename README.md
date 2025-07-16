@@ -6,6 +6,9 @@ A modern React application for exploring Pokémon berries with their firmness le
 
 ![Pokémon Berries Pokédex](./screenshot.png)
 
+<img width="1071" height="792" alt="image" src="https://github.com/user-attachments/assets/a497bab8-cbc4-484a-ae7f-a9a753e73eb8" />
+
+
 *Note: Please save the screenshot image as `screenshot.png` in the project root directory.*
 
 ## 🚀 Features
